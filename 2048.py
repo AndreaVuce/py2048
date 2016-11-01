@@ -688,7 +688,7 @@ def RunGame():
            
 
 
-#------case: DYNAMIC - END OF ANIMATION
+#------case: GAME OVER - END OF ANIMATION
        elif (game_dynamics['status'] == 'over') and (game_dynamics['i'] == ANIMATION_FRAMES):
           
           drawGame_State(game_state)
